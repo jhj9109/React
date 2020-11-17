@@ -10,7 +10,7 @@
   - React Router
   - styled-componet
 - React v16.3 이후 개선이 많이 되며, 단순한 전역 상태 관리에 Context API를 활용하는 것이 가능해짐
-  - 단, Redux를 사용시 이점이 있으므로, 모든 상황을 대체한것은 아니다.
+  - 단, Redux를 사용시 이점이 있으므로, 모든 상황을 대체 가능한 것은 아니다.
     - 향상된 성능
     - 미들웨어 기능
     - 강력한 개발자 도구
@@ -42,7 +42,7 @@ export default const ColorBox = () => {
 #### 3. Context.Provider 컴포넌트
 - Context의 value값을 설정할 수 있다.
 - static
-- Provider 사용시 value를 명시해야만 한다. => 에러 방생
+- Provider 사용시 value를 명시해야만 한다. => 에러 발생
 ```react
 improt React from 'react';
 import ColorBox from './components/ColorBox';
