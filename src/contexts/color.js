@@ -1,7 +1,7 @@
 import { createContext } from "react";
 
 const ColorContext = createContext({
-  color: "blue",
+  color: "white",
 });
 
 export default ColorContext;
