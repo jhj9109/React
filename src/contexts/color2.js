@@ -2,10 +2,10 @@ import { createContext, useState } from "react";
 
 const ColorContext2 = createContext({
   state: {
-    color: "white",
+    color: "yellow",
   },
   actions: {
-    setColor: () => {},
+    setColor: () => {console.log("뭐하십니까 Provier안에 넣으셔야죠")},
   },
 });
 
@@ -17,7 +17,7 @@ const ColorProvider = ({ children }) => {
       color,
     },
     actions: {
-      setColor,
+      setColor
     },
   };
   return (
