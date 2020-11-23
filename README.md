@@ -21,7 +21,7 @@
 #### 1. createContext 함수
 - 새로운 Context 생성
 ```react
-import { createContext } = from 'react';
+import { createContext } from 'react';
 export default const ColorContext = createConetext({ key: value })
 ```
 #### 2. Context.Consumer 컴포넌트
