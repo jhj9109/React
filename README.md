@@ -22,7 +22,7 @@
 - 새로운 Context 생성
 ```react
 import { createContext } from 'react';
-export default const ColorContext = createConetext({ key: value })
+export default const ColorContext = createContext({ key: value })
 ```
 #### 2. Context.Consumer 컴포넌트
 - Context의 value를 로드한다.
@@ -54,7 +54,7 @@ const App = () => {
             <ColorContext.Consumer>
                 {value => (<div> {value.key} </div>)}
             </ColorContext.Consumer>
-        </ColorCOntext.Provider>
+        </ColorContext.Provider>
     )
 }
 ```
